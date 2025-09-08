@@ -1,1 +1,4 @@
 config/app.config
+logs/*.txt
+logs/*.log
+logs/*.pdf
