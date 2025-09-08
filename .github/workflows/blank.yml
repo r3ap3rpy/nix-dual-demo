@@ -14,6 +14,7 @@ jobs:
           echo ${{secrets.PASSWORD}}
           echo test, and deploy your project.
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: "Prepare deploy"
